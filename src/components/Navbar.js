@@ -99,7 +99,10 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://ge.linkedin.com/in/ivane-vardoshvili-70ba6526b"
+              target="_blank"
+              rel="noreferrer"
             >
+              {" "}
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
@@ -107,6 +110,8 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/ivane98"
+              target="_blank"
+              rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -123,6 +128,8 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
+              target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
